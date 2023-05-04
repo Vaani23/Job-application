@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style type="text/css">
+ 
+		.main{
+			height: 450px;
+			width: 600px;
+			background-color: white;
+			margin: auto;
+			margin-top: 20px;
+			border: 5px black solid;
+			box-shadow: 4px 3px 5px brown;
+		  border-radius: 10px;
+		}
+		.main1{
+			font-size: 25px;
+			margin-top: 0px;
+			margin-left: 5px;
+			height: 80px;
+			width: 600px;
+			
+      	}
+    .app{
+    	text-align: end;
+    	margin-right: 50px;
+      
+    }
+    button{
+    	font-size: 20px;
+    	background-color: red;
+    	border-radius: 4px;
+    	color: white;
+    	transition: 0.3s ease-in;
+    }
+		button:hover{
+			background-color: grey;
+			border: 2px solid red;
+			cursor: pointer;
+			transition: 0.3s ease-out;
+    
+		}
+		.row2{
+			height: 60px;
+			width: 600px;
+			}
+		.row2-col1{
+			height:60px;
+			width: 300px;
+		 float: left;
+		
+		}
+		.row2-col2{
+			height: 60px;
+			width: 300px;
+    	float: left;
+		}
+		.row3{
+			height: 60px;
+			width: 600px;
+			}
+		.row3-col1{
+			height:60px;
+			width: 300px;
+		 float: left;
+		
+		}
+		.row3-col2{
+			height: 60px;
+			width: 300px;
+    	float: left;
+		}
+			
+			.row4{
+			height: 60px;
+			width: 600px;
+			}
+		.row4-col1{
+			height:60px;
+			width: 300px;
+		 float: left;
+		
+		}
+		.row4-col2{
+			height: 60px;
+			width: 300px;
+    	float: left;
+		}
+		.row5{
+			height: 60px;
+			width: 600px;
+			}
+		.row5-col1{
+			height:60px;
+			width: 300px;
+		 float: left;
+		
+		}
+		.row5-col2{
+			height: 60px;
+			width: 300px;
+    	float: left;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<legend ><h2>Details</h2></legend>
+  <div class="main">
+  <div class="main1">
+  	<b>Job Application (Web)</b>
+    <br
+  	<br>
+  	<div class="row2">
+  		<div class="row2-col1">
+  		<label for="First Name">First Name</label>
+  		<br>
+  		<input type="text" name="first_name" placeholder="enter your first name...">
+  	</div>
+  	<div class="row2-col2">
+  			<label for="Last_Name">Last Name</label><br>
+  		<input type="text" name="Last_name" placeholder="enter your last nam...">
+  	</div>
+  		<br>
+  		<div class="row3">
+  			<div class="row3-col1">
+  		<label for="email">Email</label>
+  		<br>
+  		<input type="text" name="Email" placeholder="enter your email...">
+  	</div>
+  		<div class="row3-col2">
+  		<label for="job_rol">Job Role</label><br>
+  		<select input="job_rol" name="job_rol">
+  			<option value="">select job role</option>
+  			<option valule="front end">front end developer</option>
+  			<option valule="back end">back end developer</option>
+  			<option valule="full stack">full stack developer</option>
+  			<option valule="ui_ux">ui_ux</option>
+  		</select>
+  		</div>
+  		<div class="add">
+  			<label for="address">Address</label>
+  			<br>
+  			<textarea id="address"name="address" placeholder="enter your address" rows="4" cols="50"></textarea>
+  		</div>
+  			<div class="row4">
+  				<div class="row4-col1">
+  				<label for="city">City</label><br>
+  		<input type="text" name="city" placeholder="enter your city...">
+  	</div>
+  		<div class="row4-col2">
+  				<label for="pincode">Pincode</label><br>
+  		<input type="number" name="pincode" placeholder="enter your pincode...">
+  		</div>
+  	<div class="row5">
+  		<div class="row5-col1">
+  				<label for="date">Date</label><br>
+  		<input type="date" name="date" >
+  		</div>
+  			
+  				<div class="row5-col2">
+  				<label for="Upload">Upload your CV</label><br>
+  		<input type="file" name="Upload" >
+  			</div>
+  			
+  			<div class="app">
+  				<button type="submit" id="Upload"name="submit">Apply now
+  			</button>
+  			</div>
+  		</div>
+  		</div>
+  		</div>
+   </fieldset>
+</form>
+</body>
+</html>
